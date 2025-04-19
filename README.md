@@ -6,17 +6,16 @@
 <!-- シールド一覧 -->
 <!-- 該当するプロジェクトの中から任意のものを選ぶ-->
 <p style="display: inline">
-  <!-- フロントエンドのフレームワーク一覧 -->
-  <img src="https://img.shields.io/badge/-streamlit-000000.svg?logo=streamlit&style=for-the-badge">
   <!-- バックエンドのフレームワーク一覧 -->
-  <img src="https://img.shields.io/badge/-Pytorch-092E20.svg?logo=Pytorch&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-sklearn-FF2465.svg?logo=sklearn&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-dotenv-000000.svg?logo=streamlit&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-openpyxl-092E20.svg?logo=Pytorch&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-request-FF2465.svg?logo=sklearn&style=for-the-badge">
   <img src="https://img.shields.io/badge/-numpy-232F3E.svg?logo=numpy&style=for-the-badge">
   <img src="https://img.shields.io/badge/-pandas-20232A?style=for-the-badge&logo=pandas&logoColor=844EBA">
   <!-- バックエンドの言語一覧 -->
   <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
   <!-- その他 -->
-  <img src="https://img.shields.io/badge/-Gemini API-1488C6.svg?&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-openai API-1488C6.svg?&style=for-the-badge">
 
 </p>
 
@@ -48,6 +47,7 @@ Pythonを用いて生成AIとAPI連携して、感情分析（ポジティブ・
 | ------------------------- | ----------------------------------------------------------------------- |
 | scraping.py               | 感情分析対象のデータをスクレイピングする                                    |
 | sentiment_analyze.py      | 取得したデータを生成AIとAPI連携して感情分析を行うメイン処理                  |
+| .env                      | APIキーを環境変数として格納するenvファイル                                  |
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
@@ -59,15 +59,11 @@ Pythonを用いて生成AIとAPI連携して、感情分析（ポジティブ・
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
 | Python                | 3.12.7     |
-| pytorch               | 4.2.1      |
+| request               | 2.32.2     |
 | numpy                 | 1.24.3     |
 | pandas                | 2.0.3      |
 | python-dotenv         | 16.4.5     |
-| scikit-leran          | 1.3.0      |
-| streamlit             | 1.38.0     |
-| tqdm                  | 4.65.0     |
-|yfinance               | 0.1.56     |
-|yahooquery             | 2.3.7      |
+| openpyxl              | 3.1.5      |
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
