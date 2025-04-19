@@ -8,8 +8,8 @@
 <p style="display: inline">
   <!-- バックエンドのフレームワーク一覧 -->
   <img src="https://img.shields.io/badge/-dotenv-000000.svg?logo=dotenv&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-openpyxl-092E20.svg?logo=openpyxl&style=for-the-badge">
-  <img src="https://img.shields.io/badge/-request-FF2465.svg?logo=request&style=for-the-badge">
+  <img src="https://img.shields.io/badge/-openpyxl-092E20.svg?style=for-the-badge">
+  <img src="https://img.shields.io/badge/-request-FF2465.svg?style=for-the-badge">
   <img src="https://img.shields.io/badge/-numpy-232F3E.svg?logo=numpy&style=for-the-badge">
   <img src="https://img.shields.io/badge/-pandas-20232A?style=for-the-badge&logo=pandas&logoColor=844EBA">
   <!-- バックエンドの言語一覧 -->
